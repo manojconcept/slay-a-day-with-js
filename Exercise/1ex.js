@@ -28,3 +28,11 @@ console.log(firstWord+secondWord);
 //first = word[0] => p; padEnd(length,"what to come") => p**
                     //
 //last = word[word.length-1] => s; => padStart(length, "what to come") => **i
+
+
+let result = word[0]
+for (let i = 0;i<word.slice(1,word.length).length-1;i++){
+    result +="*";
+}
+result+=word[word.length-1];
+console.log(result);
