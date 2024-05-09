@@ -3,7 +3,7 @@
 
 ## Postfix Form i++
 
-Sure, let's break it down step by step using a table:
+let's break it down step by step using a table:
 
 | Step | Code          | Explanation                                         | Value of `i` | Value of `a` |
 |------|---------------|-----------------------------------------------------|--------------|--------------|
