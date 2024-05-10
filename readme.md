@@ -4,7 +4,12 @@
 
 
 ### <<< Codes >>>
-3. [Type Conversion](./notes/post/Pre&Post-fix%20form.md)
+3. [Type Conversion](./typeConversion.js)
 
 ### <<< Exercise >>>
 1. [Exercise 1](./Exercise/1ex.js)
+
+### <<< patterns >>>
+
+1. [Triangle](./patterns/triangle.js)
+   1. [readme](./patterns/triangle/readme.md)
