@@ -11,5 +11,5 @@
 
 ### <<< patterns >>>
 
-1. [Triangle](./patterns/triangle.js)
+1. [Triangle](./patterns/triangle/index.js)
    1. [readme](./patterns/triangle/readme.md)
