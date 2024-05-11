@@ -2,25 +2,38 @@
 //======================>Example 1: Triangle Pattern - I
 /*
 1
-1 2
-1 2 3
-1 2 3 4
-1 2 3 4 5
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+999999999
+10101010101010101010
 */
-
-function leftAngleTriangle(row){
-    let result = "";
-    for (let i =1;i<=row;i++){
-        for(let j=1;j<=i;j++){
-            result += i
-        }
-        result +="\n";
+console.log(">>>leftAngleTriangle pattern 1")
+let leftAngleTriangle ="";
+for (let i = 1;i<=10;i++){
+    for(let j=1;j<=i;j++){
+        leftAngleTriangle += i
     }
-    console.log(">>>leftAngleTriangle")
-    return result;
+    leftAngleTriangle +="\n"
 }
-
-console.log(leftAngleTriangle(5).trim());
+console.log(leftAngleTriangle.trim());
+/*
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+*/
+console.log(">>>leftAngleTriangle pattern 1")
 
 
 
