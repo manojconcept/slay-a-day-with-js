@@ -15,5 +15,6 @@
 1. [Triangle](./patterns/triangle/index.js)
    1. [readme](./patterns/triangle/readme.md)
 
-### <<< Number set >>>
-[readme](./Number/numbers.md)
+### <<< Numbers >>>
+1. Number Sets
+   1. [readme](./Number/numbers.md)
