@@ -19,7 +19,6 @@ All Typeof
 //----> boolean
 7.true
 8.false
-
 */
 
 //------------------------------------------------> Boolean Conversion

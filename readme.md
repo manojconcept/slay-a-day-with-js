@@ -4,6 +4,7 @@
 
 
 ### <<< Codes >>>
+2. [functions](./functions.js)
 3. [Type Conversion](./typeConversion.js)
 
 ### <<< Exercise >>>
