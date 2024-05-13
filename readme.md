@@ -16,4 +16,4 @@
    1. [readme](./patterns/triangle/readme.md)
 
 ### <<< Number set >>>
-   ### >>> [readme](./Number/numbers.md)
+[readme](./Number/numbers.md)
