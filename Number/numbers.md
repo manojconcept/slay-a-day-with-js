@@ -36,10 +36,11 @@ Numbers that can not be represented as a fraction or in form of `p/q` are called
 ### Real Numbers
 Collection of all the rational and irrational number is called Real Numbers. Each real number can be represented on a number line. In other words, each point on a number line corresponds to a real number and vice verca. That's why they are called real numbers. It includes all the numbers explained above. And a set of real numbers is denoted by R
 
-credit : 
+
 
 #### referral link Link : 
 
 1. davenport.com: [https://davenport.libguides.com/math-skills-overview/basic-operations/sets](https://davenport.libguides.com/math-skills-overview/basic-operations/sets)
 2. cuemath.com :[https://www.cuemath.com/numbers/](https://www.cuemath.com/numbers/)
 
+## [<---Back](./index.md)

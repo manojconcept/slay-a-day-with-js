@@ -28,7 +28,7 @@ console.log(name1,console.log(name2,console.log(name1))); // donkey undefined
 //step 1 => donkey
 //step 2 => monkey ---> undefined
 //step 3 => donkey ---> undefined
-let name3 = " puvi";
+let name3 = " javascript";
 function isPhone(par="ring ring",par1){
    return par + par1 + name3
 }
