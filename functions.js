@@ -1,6 +1,6 @@
 //>>>Traditional Function 
 
-//--function,name,(),{}
+//--function,name,(parameters),{return statements}
 
 //>>>Arrow Function
 
@@ -39,7 +39,7 @@ console.log(isPhone("","phone"));
 
 // console.log(result[0].padEnd(result.length,"*"));
 
-// ==================> /// "kkkk lll a cc bbb" ---> 4k
+// ==================> /// "kkkk lll a cc bbb" ---> 4k3l1a2c3b
 function findingDistance(parm){
     let result = "";
     let count = 1;
