@@ -54,7 +54,7 @@
 ```
 > Code
 ```js
-     function leftAngleTriangle(row){
+     function leftAngleTriangel(row){
           let result = ""; //----> storing the new value
           for(let i=0;i<row;i++){
               for(let j=0;j<row-i;j++){
