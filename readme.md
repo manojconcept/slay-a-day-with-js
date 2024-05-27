@@ -23,4 +23,5 @@
 
 
 ### <<< Javascript Blog >>>
+1. [slayMe](./blogs/SlayInMemory.md)
 
