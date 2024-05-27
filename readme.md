@@ -1,6 +1,6 @@
 ### <<< Notes >>>
- 0. [preview](/notes/JsPreView.md)
- 1. [Prefix and Postfix form](/notes/post/Pre&Post-fix%20form.md) 
+ 0. [preview](./notes/JsPreView.md)
+ 1. [Prefix and Postfix form](./notes/Pre&Post-fix%20form.md) 
 
 
 
