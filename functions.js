@@ -57,3 +57,13 @@ function findingDistance(parm){
 
 console.log(findingDistance("kkkklllaccbbb"));
     
+
+console.log(duckCalling("quak quak")); // quak quak
+
+function duckCalling(parm="bow bow"){
+    return parm ;
+}
+
+console.log((function darlaCalling(parm = "jane jane where are you !"){
+    return parm;
+})("jane, I found you"));
