@@ -64,6 +64,6 @@ function duckCalling(parm="bow bow"){
     return parm ;
 }
 
-console.log((function darlaCalling(parm = "jane jane where are you !"){
+console.log(typeof (function darlaCalling(parm = "jane jane where are you !"){
     return parm;
-})("jane, I found you"));
+})("jane, I found you").length);
