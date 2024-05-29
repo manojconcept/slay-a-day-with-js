@@ -6,9 +6,33 @@
 
 
 //>>>Immediately Invoked Function Expression
+console.log(typeof (function darlaCalling(parm = "jane jane where are you !"){
+    return parm;
+})("jane, I found you").length);
 
 
 //>>>Anonymous Function
+function lll(){
+    return function(){
+        return "hello";
+    };
+}
+
+const callingBell = function(){
+    return "ding dong";
+}
+
+console.log(callingBell());
+
+//Arrow function
+const dingoBow = () => "Arrow function";
+console.log(dingoBow());
+
+const dingoBowBow = () => {
+    let i = 2;
+    return i+1;
+};
+console.log(dingoBowBow());
 
 
 // function nameCalling(name){
@@ -64,6 +88,4 @@ function duckCalling(parm="bow bow"){
     return parm ;
 }
 
-console.log(typeof (function darlaCalling(parm = "jane jane where are you !"){
-    return parm;
-})("jane, I found you").length);
+
