@@ -19,12 +19,16 @@ let numberOfrow,mythicalCreature,myName;
  console.log(myName);
 
 
-let array2 = [1,'manoj',"catfish","python","spider",3344,7788];
+// let array2 = [1,'manoj',"catfish","python","spider",3344,7788];
+// let firstNumber,myName2,freshWaterFish,rest;
+// [firstNumber,myName2,freshWaterFish,...rest] = array2;
+// // console.log(firstNumber); 1
+// // console.log(myName2); //manoj
+// // console.log(freshWaterFish);// catfish
+// // console.log(rest); //["python","spider",3344,7788]
+// const array3 = [firstNumber,myName2,freshWaterFish,rest];
+// console.log(array3);
+
 let firstNumber,myName2,freshWaterFish,rest;
-[firstNumber,myName2,freshWaterFish,...rest] = array2;
-// console.log(firstNumber); 1
-// console.log(myName2); //manoj
-// console.log(freshWaterFish);// catfish
-// console.log(rest); //["python","spider",3344,7788]
-const array3 = [firstNumber,myName2,freshWaterFish,rest];
-console.log(array3);
+[firstNumber,myName2,freshWaterFish,...rest] = [1,'manoj',"catfish","python","spider",3344,7788];
+let array3 = [firstNumber,myName2,freshWaterFish,rest];
