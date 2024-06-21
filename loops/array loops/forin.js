@@ -32,13 +32,17 @@ const arrayOfObjects = [
       name: "Robert Brown",
       age: 37,
       occupation: "UX/UI Designer",
-      city: "Los Angeles"
+      city: "Los Angeles",
+      "favourite colour":["blue",{id:1},"orange","teal"]
     }
   ];
 
-  let locations = ["chennai","madurai","theni","dindigul"];
-  for (let i in arrayOfObjects){
-        arrayOfObjects[i].city = locations[i] ?? arrayOfObjects[i].city;
-  }
+//   let locations = ["chennai","madurai","theni","dindigul"];
+//   for (let i in arrayOfObjects){
+//         arrayOfObjects[i].city = locations[i] ?? arrayOfObjects[i].city;
+//   }
 
-  console.log(arrayOfObjects);
+  console.log(arrayOfObjects[4]["favourite colour"][1]?.food ?? "no food" );
+
+
+ 
