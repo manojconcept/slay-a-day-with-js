@@ -33,7 +33,7 @@ const arrayOfObjects = [
       age: 37,
       occupation: "UX/UI Designer",
       city: "Los Angeles",
-      "favourite colour":["blue",{id:1},"orange","teal"]
+      "favourite colour":["blue",{id:1,food:"orange"},"orange","teal"]
     }
   ];
 
