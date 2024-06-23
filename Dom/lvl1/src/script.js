@@ -17,11 +17,11 @@ const accessAllAttributesAndTagName = document.querySelectorAll("input");
 //console.log(accessAllAttributesAndTagName);  // retruns an array; --> access with index value and with innerText;
 // let chageName = prompt("say your age :");
 
-(function displayNames() {
-    let creatingElement = document.createElement("h1");
-    creatingElement.id = "box"
-    creatingElement.innerText = prompt("Enter your name");
-    return document.body.append(creatingElement);
-})();
+// (function displayNames() {
+//     let creatingElement = document.createElement("h1");
+//     creatingElement.id = "box"
+//     creatingElement.innerText = prompt("Enter your name");
+//     return document.body.append(creatingElement);
+// })();
 
 
