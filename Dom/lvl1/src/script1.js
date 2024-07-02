@@ -35,13 +35,16 @@ reset.addEventListener("click", () => {
     // console.log(count);
 }
 )
-decrement.addEventListener("click", () => {
+decrement.addEventListener("click", (e) => {
+    console.log(e);
     // console.log(count -=1);
     if(count>0) counterResult.innerText = count -=1
     
 }
 )
 
-
+let targetUsernameIp = document.getElementById("username");
+targetUsernameIp.addEventListener("keyup",(e)=>console.log(e));
 // reset-btn
 // decremnet-btn
+

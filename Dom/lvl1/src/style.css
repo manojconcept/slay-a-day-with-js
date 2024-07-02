@@ -21,3 +21,11 @@ input{
     font-size: 20px;
     cursor: pointer;
 }
+
+#username{
+    width: 300px;
+    height: 30px;
+}
+label{
+    font-size: 30px;
+}
