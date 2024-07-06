@@ -14,7 +14,7 @@ function Car(make,model,year){
     this.model = model;
     this.year = year;
     this.drive = function(){
-        return `Thi ${this.make} ${this.model} is driving`
+        return `The ${this.make} ${this.model} is driving`
     };
 }
 
