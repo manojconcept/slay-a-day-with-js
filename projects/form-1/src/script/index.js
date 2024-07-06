@@ -29,8 +29,8 @@ const creatUserData = () => {
 
 submitbtn.addEventListener("click", (e) => {
     e.preventDefault();
-    creatUserData();
     let htmlBlock;
+    creatUserData();
     UserData.forEach(ele => {
         const {
             username,
