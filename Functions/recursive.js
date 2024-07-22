@@ -19,3 +19,4 @@ function factorial(n) {
   return n * factorial(n - 1); // Recursive case
 }
 
+console.log(factorial(3));
