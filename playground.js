@@ -135,7 +135,20 @@ for(let i = roleName.length-1;i>=0;i--){
 }
 console.log(result);
 
+/* odd --> 1,3,5,7 */
+/* even --> 2,4,6,8 */
 
-/*odd --> 1,3,5,7 */
-/*even*--> 2,4,6,8 */
+/* i++ ---> i = i+1 post prefix  */ 
+/* ++i ---> i = i+1 prefix */
+console.log("------>odd")
+for(let i =1;i<=10;i=i+2){
+    console.log(i); //odd
+    //i=i+2
+}
+console.log("------>even")
+for(let i=2;i<=10;i=i+2){
+    console.log(i)
+}
+
+
 
