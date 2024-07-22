@@ -39,14 +39,14 @@ min = 2
 max = 10
 result = []
 
-outerloop = i = 2
+outerloop = i = 2; 2 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 2 --> flase
         array[j] === i ---> 2 === 2 ---> true
             found = true;
             break; 
 
-outerloop = i = 3
+outerloop = i = 3 ;  3 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 3 --> false
         array[j] === i ---> 2 === 3 ---> false
@@ -56,7 +56,7 @@ outerloop = i = 3
     if (!found) at means found = true;
         result.push(i);
 
-outerloop = i = 4
+outerloop = i = 4 ;  4 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 4 --> false
         array[j] === i ---> 2 === 4 ---> false
@@ -64,13 +64,13 @@ outerloop = i = 4
             found = true;
             break;
 
-outerloop = i = 5
+outerloop = i = 5; 5 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 5 --> true
          found = true;
             break;
 
-outerloop = i = 6
+outerloop = i = 6 ;6 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 6 --> false
         array[j] === i ---> 2 === 6 --> false
@@ -80,7 +80,7 @@ outerloop = i = 6
     found = false;
             result.push(i);
 
-outerloop = i = 7
+outerloop = i = 7 ; 7 < 10 ---> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 7 --> false
         array[j] === i ---> 2 === 7 --> false
@@ -90,7 +90,7 @@ outerloop = i = 7
     found = false;
         result.push(i);
 
-outerloop = i = 8
+outerloop = i = 8 ; 8 < 10 --> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 8 --> false
         array[j] === i ---> 2 === 8 --> false
@@ -99,7 +99,7 @@ outerloop = i = 8
         found = true;
         break;
 
-outerloop = i = 9
+outerloop = i = 9; 9 < 10 ---> true
     innerloop = j = 0 to j<array.lengtt(j < 5);
         array[j] === i ---> 5 === 9 --> false
         array[j] === i ---> 2 === 9 --> false
@@ -109,5 +109,5 @@ outerloop = i = 9
     found = false
         result.push(i):
 
-outerloop = i = 10; 10 < 10 ,loop will exit
+outerloop = i = 10; 10 < 10 ---> false ,loop will exit
 */

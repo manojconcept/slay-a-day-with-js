@@ -76,15 +76,4 @@ it retrun an object
 min : 1,
 max : 10
 }
-
-
-
-
-
-
-
-
-
-
-
 */
