@@ -80,6 +80,8 @@ let sector = [
     }
 ];
 
+//Add to remove properite 
+let properties = ["sector_id", "inshop", "takeaway", "hyperlocal", "courier","url"]
 
 const mergedSections = section.map(elesec => {
     const sectorMatch = sector.find(sect => sect.id === elesec.sector_id);
@@ -98,7 +100,7 @@ const mergedSections = section.map(elesec => {
 
     };
 
-    ["sector_id", "inshop", "takeaway", "hyperlocal", "courier","url"].forEach(element => {
+    properties.forEach(element => {
         delete result[element];
     });
 
