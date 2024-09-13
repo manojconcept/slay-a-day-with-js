@@ -72,8 +72,53 @@ function addItem(n){
 //------------------------------
 
 // O(log n); --> This is a technique called divide and conquer;
+/**
+ /*
+ * [1,2,3,4,5,6,7,8];
+ * [1,2,3,4]; step 1
+ * [1,2] step 2
+ * [1] step 3
+ * this is a technique called divide and conquer
+ * 2 cube = 8 where 8 is the items in an array;
+ * log<sub>2 8 = 3
+ */
+ 
 
 
 //------------------------------
-// O(nlogn); ---> some soring Algorithms
+// O(nlog n); ---> some soring Algorithms
+
+//------------------------------
+//Different Terms for Inputs
+/**
+ * O(a + b)
+ */
+
+function logItem(a,b){
+    for(let i=0;i<a;i++){
+        console.log(i);  //O(n); ---> // O(a); @parameter are different
+    }
+
+    for(let j=0;j<b;j++){
+        console.log(j); //O(n); ---> // O(b); @parameter are different
+    }
+    
+}
+logItem(10,8);
+//------------------------------
+//Different Terms for Inputs
+/**
+ * O(a * b)
+ */
+
+function logItem(a,b){
+    for(let i=0;i<a;i++){
+        for(let j=0;j<b;j++){
+            console.log(j); 
+        }
+    }
+}
+
+
+
 

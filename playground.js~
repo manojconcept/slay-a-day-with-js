@@ -1,0 +1,11 @@
+let details= {
+id:2,
+name:"manoj"
+};
+
+let address = {
+id:1,
+address:" 12/33 velnager pecock garden "
+}
+
+console.log({...details,...address});
