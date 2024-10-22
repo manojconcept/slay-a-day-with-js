@@ -31,7 +31,7 @@ const john = new Person('manoj', "concept", 200);
 
 //Object.create();
 const animal = { //parent
-    eat() {
+    eat() { //methods
         return "yum";
     }
 }
@@ -61,3 +61,10 @@ const manojconcept = Object.create(human,{
 console.log(manojconcept.speak());
 console.log(manojconcept.name);
 console.log(manojconcept.intro);
+
+const jonwillam = new Person("John", "willam", 200);
+jonwillam.greet();
+jonwillam.location = "mars";
+console.log(jonwillam);
+
+
