@@ -50,10 +50,10 @@ console.log(String("")); // ""
 console.log(String(NaN)); // "NaN"
 console.log(String(1)); // "1"
 console.log(String(0)); // "0"
-console.log(String(null)); // "0"
+console.log(String(null)); // "0" ***
 console.log(String(undefined)); // "undefined"
-console.log(String(true)); // "1"
-console.log(String(false)); // "0"
+console.log(String(true)); // "1" ***
+console.log(String(false)); // "0" ***
 console.log("hello")// "hello"
 
 

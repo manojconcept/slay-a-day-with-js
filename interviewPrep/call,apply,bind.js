@@ -53,9 +53,10 @@ console.log(function(){
     return "manoj"
 }); //<<-----------adding and semi colon 
 
-(function() {
+(function(para) {
     var x = 20;
     var y = 20;
     var answer = x + y;
     console.log(answer);
-    })();
+    console.log(para);
+    })("hello");
